@@ -7,3 +7,5 @@ const numeroString ="456";
 
 console.log(String(numero) + numeroString);
 
+// conversoes explícitas
+
