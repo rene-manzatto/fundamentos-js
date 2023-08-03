@@ -1,12 +1,5 @@
-// tipo de dado
-// booleanos
+const colecaoDisco = ['Piece of mind', 'Powerslave', 'Somewhere in time', 'Seventh son of a seventh son'];
 
-// conversãoímplicita
-const numero = 456;
-const numeroString ="456";
+colecaoDisco.pop(colecaoDisco[1]);
 
-console.log(String(numero) + numeroString);
-
-// conversoes explícitas
-
-
+console.log(`Meu disco favorito é o ${colecaoDisco[1]}`);
