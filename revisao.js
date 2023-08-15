@@ -1,7 +1,5 @@
-const notas = [10, 8.5, 6, 7];
+const nomes = ['rene manzatto', 'MARY góes'];
 
-const notasAtualizadas = notas.map((nota) => {
-    return nota + 1;
-});
+const nomesAtualizados = nomes.map((nome) => nome.toUpperCase());;
 
-console.log(notasAtualizadas);
+console.log(nomesAtualizados);
