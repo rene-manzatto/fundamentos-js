@@ -1,5 +1,5 @@
-const nomes = ['rene manzatto', 'MARY góes'];
+const numeros = [43, 50, 65, 12]
 
-const nomesAtualizados = nomes.map((nome) => nome.toUpperCase());;
+const soma = numeros.reduce((acc, atual) => atual + acc, 0)
 
-console.log(nomesAtualizados);
+console.log(soma) //170
